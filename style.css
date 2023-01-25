@@ -1,0 +1,69 @@
+/* 
+    Theme Name: Agencia
+    Version: 0.1
+    Requires at least: 6.1
+    Requires PHP: 8.1
+    Description: Thème Agencia développer spécifiquement pour le site de l'agence immobilière Agencia
+    Author: DevoWeb
+    Author URI: https://www.devoweb.fr
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.formatted .blocks-gallery-grid {
+    display: flex;
+    margin: 0 auto;
+}
+
+.formatted .blocks-gallery-item {
+    padding-left: 0;
+    list-style: none;
+}
+
+.formatted .blocks-gallery-item::before {
+    display: none;
+}
+
+.formatted .wp-block-button {
+    margin: 1.5em 0;
+}
+
+.comment .edit-link,
+.comment .reply {
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.comment .edit-link::before,
+.comment .reply::before {
+    content: "•";
+    margin: 0 0.5em;
+}
+
+.form-2column .comment-notes,
+.form-2column .comment-form-cookies-consent,
+.form-2column .form-submit {
+    grid-column: 1/-1;
+}
+
+.comment .comment {
+    margin-left: 75px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.comment img {
+    width: 60px;
+}
+.comment .comment__body {
+    flex: 1 1 0;
+}
+
+.current_page_parent {
+    color: #fe6748;
+}
